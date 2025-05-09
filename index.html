@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shriya Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/126b84eef4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="Name_logo.png" class="logo" alt="Shriya Singh Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" id="close-menu"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="open-menu"></i>
+            </nav>
+            <div class="header-content">
+                <div class="header-text">
+                    <p>Frontend Developer</p>
+                    <h1>Hi, I'm <span>Shriya Singh</span></h1>
+                </div>
+                <div class="header-image">
+                    <img src="shreyas'simage.jpg" alt="Shriya's profile image"  height="500px" width="100%">
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!----------------- About ------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Background.webp">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, My Name is Shriya Singh. I am currently pursuing a B.Tech from Dronacharya Group Of Institutions, where I honed my skills in frontend development, specialiazing
+                        in HTML, CSS, JavaScript ,pyhton,machine learning etc.. Alongside my strong knowledge of Java in DSA, I have a solid foundation in creating dynamic and responsive web application. My certifications in AWS, Network Technician from CISCO, and cybersecurity from GOOGLE further attest to my diverse skill set and commitment to continuous learning.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Data Structures and Algorithm</span><br>Problem Solving</li>
+                            <li><span>Data Processing</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>B.Tech(CSE) at Dronacharya Group Of Institutions</li>
+                            <li><span>2021</span><br>12th - Non-Medical from Vidya Mandir</li>
+                            <li><span>2019</span><br>10th from Angel's Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------Services-------------------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div id="service-txt">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Creating and delivering websites or web applications tailored 
+                    to specific needs.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div id="service-txt">
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Crafting user-friendly interfaces and optimizing 
+                    user experiences.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div id="service-txt">
+                <i class="fa-solid fa-crop"></i>
+                <h2>Frontend Developer</h2>
+                <p>Crafting user-friendly single page web application.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+ </div>
+
+ <!-- -------------------portfolio--------------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Courselle</h3>
+                    <p>This website about the course provided to the new learner</p>
+                    <a href="https://github.com/Shriyasingh17/Courselle"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Jarvis-The Ai Desktop</h3>
+                    <p>Jarvis is being developed as an automation tool and virtual assistant.</p>
+                    <a href="https://github.com/Shriyasingh17/Jarvis--The-Ai-Desktop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>GuessingGame</h3>
+                    <p>A guessing game is a type of game where players attempt to correctly guess the answer to a question, often about a hidden object, number, or word</p>
+                    <a href="https://github.com/Shriyasingh17/GuesssingGame"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Diabetes-Predict-System</h3>
+                    <p>Create to accurately and early predict the likelihood of a person developing diabetes, enabling early intervention and management.</p>
+                    <a href="https://github.com/Shriyasingh17/Diabetes-predict-system"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+          <a href="https://github.com/Shriyasingh17" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!------------------------- contact-------------------------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shriyasingh17072004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9354117059</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shriya-singh-359670247/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/shreyasingh__88"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/Shriyasingh17"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="Shriya_resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Shriya Singh. Made with <i class="fa-solid fa-heart"></i> by Shriya </p>
+    </div>
+  </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOCGVtJGtoCnY1WbXzZMxJ9Z7h0Aq9TefLwklRMtXcyywcEtgw2emY5Gs_QmVM8RGtlg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
