@@ -107,11 +107,11 @@ nav ul li a:hover::after {
 
 .header-text {
     flex: 1;
-    margin-right: 30px;
+    margin-right: 90px;
 }
 
 .header-text h1 {
-    font-size: 50px;
+    font-size: 80px;
     margin-top: 20px;
 }
 
